@@ -1,6 +1,7 @@
 ans=0
-for i in range(8):
-    if i*i > 8:
+x=int(input('Enter a number: '))
+for i in range(x):
+    if i*i > x:
         print(f'> than 8 :: i={i} :: ', i)
         ans=i-1
     elif x==1:
